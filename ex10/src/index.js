@@ -22,6 +22,7 @@ function myFunction() {
             },
             gold: true
         },
+
     };
 }
 myFunction()[2];

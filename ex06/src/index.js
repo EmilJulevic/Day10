@@ -1,7 +1,7 @@
 var lion = {
     name: "Simba",
-    legs: "4",
-    tails: "1",
+    legs: 4,
+    tails: 1
 };
 function myFunction() {
     lion["roar"] = "roar-roar";

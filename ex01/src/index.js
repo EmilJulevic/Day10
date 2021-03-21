@@ -1,9 +1,9 @@
 var myPet = {
     species: "Dog",
     name: "Rex",
-    legs: "4",
-    friends: "Mex, Jeck",
-}
+    legs: 4,
+    friends: ["Mex, Jeck"]
+};
 function myFunction(myObj) {
     return myObj;
 }
