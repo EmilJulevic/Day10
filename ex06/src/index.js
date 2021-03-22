@@ -3,9 +3,10 @@ var lion = {
     legs: 4,
     tails: 1
 };
-function myFunction() {
-    lion["roar"] = "roar-roar";
+function myFunction(propName, propVal) {
+    lion[propName] = propVal;
     return lion;
 }
-console.log(myFunction("roar"));
+myFunction("roar", "roar-roar");
+console.log(lion);
 module.exports = myFunction;

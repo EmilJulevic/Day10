@@ -4,9 +4,11 @@ var lion = {
     tails: 1,
     roar: "roar-roar"
 };
-function myFunction() {
-    delete lion["roar"];
+function myFunction(propName) {
+    delete lion[propName];
     return lion;
 }
-console.log(myFunction("roar"));
+
+myFunction("roar");
+console.log(lion);
 module.exports = myFunction;
